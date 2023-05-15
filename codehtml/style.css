@@ -1,0 +1,26 @@
+.p1{
+    color: red;
+}
+.text{
+    /* Chọn font chữ */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Xếp theo mức độ ưu tiên */
+    /* Kích thước */
+    /* đơn vị đo là px */
+    font-size: 14px;
+    /* in đậm */
+    font-weight: bold;
+    /* in nghiêng */
+    font-style: italic;
+    /* viết hoa (nhỏ) */
+    font-variant: small-caps;
+    /* khoảng cách giữa cách từ */
+    word-spacing: 10px;
+    /* khoảng cách giữ các chữ cái (ký tự) */
+    letter-spacing: 10px;
+    /* chiều cao của hàng */
+    line-height: 60px;
+    /* làm bóng văn bản */
+    /* text-shadow: x y độ nhòe màu */
+    text-shadow: 5px 5px 3px red;
+}
