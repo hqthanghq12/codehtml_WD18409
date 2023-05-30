@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- cách tạo form -->
+    <!-- action: nơi dữ liệu được gửi đến -->
+    <!-- method: là phương chuyền dữ liệu (get/ post) -->
+    <form action="login.html" method="get">
+        <!-- dùng thẻ input để nhận dự liệu nhập từ người dùng -->
+        <!-- chú ý type cần phải đặt phù hợp -->
+        <!-- placeholder: ghi chú thích trong ô nhập -->
+        <input type="text" name="" id="" placeholder="Họ và tên" required>
+        <!-- nhãn thẻ -->
+        <label for="">Giới tính</label>
+        <!-- chọn 1 -->
+        <!-- radio yêu cầu trùng tên -->
+        <input type="radio"name="gioiTinh">Nam
+        <input type="radio" name="gioiTinh">Nữ
+        <!-- chọn nhiều -->
+        <label for="">Sở thích:</label>
+        <input type="checkbox" name="soThich"> Chơi game
+        <input type="checkbox" name="soThich"> Chơi đá bóng
+        <input type="checkbox" name="soThich"> Nghe Nhạc
+        <input type="checkbox" name="soThich"> Đọc sách
+        <input type="date" placeholder="Ngày sinh">
+        <input type="text" placeholder="Địa chỉ">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Số điện thoại">
+        <input type="text" placeholder="Nơi học tập, công tác">
+        <label for="">Danh sách người yêu cũ</label>
+        <select name="" id="">
+            <option value="">Mận</option>
+            <option value="">Dào</option>
+            <option value="">Lê</option>
+            <option value="">Ổi</option>
+        </select>
+        <!-- Gửi dữ liệu đi -->
+        <input type="submit" value="Submit">
+        <!-- Xoá hết dữ liệu vừa nhập -->
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

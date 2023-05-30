@@ -1,0 +1,21 @@
+table{
+    /* định dạng lại khung */
+    border-collapse: collapse;  
+}
+/* tô màu hàng lẻ */
+tr:nth-child(2n+1){
+    background-color: aqua;
+}
+/* tô màu hàng chẵn */
+tr:nth-child(2n){
+    background-color: blueviolet;
+}
+/* chỉ dùng cho bảng chưa bị chia */
+/* tô hàng đầu tiên */
+/* tr:first-child{
+    background-color: blue;
+} */
+/* tô màu hàng cuối */
+/* tr:last-child{
+    color: blanchedalmond;
+} */

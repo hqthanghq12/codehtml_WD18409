@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Bảng</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <!-- table: Bảng -->
+    <!-- Tạo hàng thì <tr> -->
+    <!-- Các cột ở hàng đầu tiên của bảng dung thẻ <th> -->
+    <!-- Còn các cột còn lại ta dung td -->
+    <table border="1">
+        <!-- Nhãn của/ tên bảng -->
+        <caption>Thông sinh viên</caption>
+        <!-- phần đầu của bảng: tiêu đề -->
+        <thead>
+            <tr>
+                <th>Mã sinh viên</th>
+                <th>Tên sinh viên</th>
+                <th>Năm sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- phân thân bảng: nội dung của bảng-->
+            <tr>
+                <td>PH123</td>
+                <td>Văn A</td>
+                <td>2004</td>
+            </tr>
+            <tr>
+                <td>PH234</td>
+                <td>Trần B</td>
+                <td>2004</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- phần cuối bảng: kết luận -->
+            <!-- ôm cột thì col -->
+            <!-- ôm hàng thì row -->
+            <tr>
+                <td colspan="2">số lượng:</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
