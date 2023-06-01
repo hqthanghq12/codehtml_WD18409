@@ -1,0 +1,41 @@
+h1{
+    /* Kích thước */
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid red;
+    margin: 20px;
+    background-color: aqua;
+    background-image: url('img/anh1.jpg');
+}
+.bx1{
+    width: 300px;
+    height: 400px;
+    /* padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 10px; */
+    /* theo quy tắc kim đồng hồ: trên-phải-dưới-trái */
+    /* padding: 20px 30px 10px 40px; */
+    /* theo cặp: trên-dươi trái-phải */
+    /* padding: 20px 30px; */
+    /* tất cả giống nhau */
+    padding: 10px;
+    /* điều chỉnh đường viền */
+    /* border: width style color */
+    border: 3px double rebeccapurple;
+    /* border-top: 4px solid red ; */
+    /* bo góc */
+    /* cho tất cả các góc */
+    border-radius: 10px;
+    /* cho từng góc: top-left top-right bottom-right bottom-left */
+    /* border-radius: 20px 30px 40px 50px; */
+    /* đổ bóng */
+    /* box-shadow: [inset] x y length color */
+    /* có inset thì bóng đổ vào trong không thì đổ ra ngoài */
+    box-shadow:  5px 5px 10px red;
+}
+.bx2{
+    width: 500px;
+    height: 400px;
+}
