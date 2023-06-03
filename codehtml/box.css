@@ -9,8 +9,8 @@ h1{
     background-image: url('img/anh1.jpg');
 }
 .bx1{
-    width: 300px;
-    height: 400px;
+    /* width: 300px; */
+    /* height: 400px; */
     /* padding-top: 30px;
     padding-right: 20px;
     padding-bottom: 40px;
@@ -20,22 +20,40 @@ h1{
     /* theo cặp: trên-dươi trái-phải */
     /* padding: 20px 30px; */
     /* tất cả giống nhau */
-    padding: 10px;
+    /* padding: 10px; */
     /* điều chỉnh đường viền */
     /* border: width style color */
-    border: 3px double rebeccapurple;
+    /* border: 3px double rebeccapurple; */
     /* border-top: 4px solid red ; */
     /* bo góc */
     /* cho tất cả các góc */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* cho từng góc: top-left top-right bottom-right bottom-left */
     /* border-radius: 20px 30px 40px 50px; */
     /* đổ bóng */
     /* box-shadow: [inset] x y length color */
     /* có inset thì bóng đổ vào trong không thì đổ ra ngoài */
-    box-shadow:  5px 5px 10px red;
+    /* box-shadow:  5px 5px 10px red; */
 }
-.bx2{
-    width: 500px;
-    height: 400px;
+.bx2, .bx1, .bx3, .bx4{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+}
+.bx1{
+    position: relative;
+    /* di chuyển tương đối và k ảnh hướng đến những thành phần khác */
+    top: 20px;
+    left: 100px;
+}
+
+.boxcon{
+    position: absolute ;
+    /* nếu k có div nào nhận là cha thì sẽ khung trang web để di chuyển */
+    /* fixed :dữ nguyên vị trí khi cuộn mà hình */
+    width: 50px;
+    height: 50px;
+    top:20px;
+    left: 40px;
+    border: 1px solid red;
 }
